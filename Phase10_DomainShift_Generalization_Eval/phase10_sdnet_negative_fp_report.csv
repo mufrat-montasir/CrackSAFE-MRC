@@ -1,0 +1,10 @@
+model_name,sdnet_domain,n_images,fp_rate,mean_pred_pixels,median_pred_pixels
+model1_unet,Decks,1000,0.463,342.873,0.0
+model1_unet,Pavements,1000,0.566,255.512,19.0
+model1_unet,Walls,1000,0.355,116.396,0.0
+model2_deeplabv3plus,Decks,1000,0.347,345.568,0.0
+model2_deeplabv3plus,Pavements,1000,0.634,262.499,50.0
+model2_deeplabv3plus,Walls,1000,0.216,184.667,0.0
+model3_unetplusplus,Decks,1000,0.634,784.324,76.5
+model3_unetplusplus,Pavements,1000,0.729,1629.956,163.5
+model3_unetplusplus,Walls,1000,0.516,350.286,8.0

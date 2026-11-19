@@ -1,0 +1,2 @@
+run_name,threshold,mean_iou_all,mean_iou_crack_only,mean_dice_crack_only,no_crack_fp_rate,n_total,n_crack,n_no_crack,best_epoch
+phase11_full_cracksafe_mrc_unetpp_effb3_448,0.5,0.6237033780790758,0.5756108502667796,0.7171993128762301,0.05045871559633028,1695,1477,218,12

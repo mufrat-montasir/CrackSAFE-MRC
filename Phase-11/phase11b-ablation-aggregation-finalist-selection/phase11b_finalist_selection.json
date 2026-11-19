@@ -1,0 +1,7 @@
+{
+  "selected_ablation": "Boundary + clDice + Lovasz",
+  "mean_iou_crack_only": 0.581629243609008,
+  "mean_dice_crack_only": 0.7224508549884767,
+  "no_crack_fp_rate": 0.0458715596330275,
+  "rule": "lowest no-crack FP rate among ablations with crack-IoU >= 98% of best crack-IoU"
+}

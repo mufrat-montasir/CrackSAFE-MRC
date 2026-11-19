@@ -1,0 +1,111 @@
+﻿# =========================
+# CrackSAFE Git Ignore
+# =========================
+
+# Datasets
+Datasets/
+datasets/
+data/
+raw_data/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+
+# Archives / bundles
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Kaggle / ML cache
+.kaggle/
+wandb/
+mlruns/
+lightning_logs/
+runs/
+
+# Temporary/system files
+desktop.ini
+Thumbs.db
+.DS_Store
+*.tmp
+*.temp
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Large generated cache folders
+cache/
+tmp/
+temp/
+
+# Additional ML/model artifacts
+*.bin
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.keras
+*.pb
+*.tflite
+
+# Web/build artifacts
+node_modules/
+.next/
+dist/
+build/
+
+# Temporary inventory files
+github_remote_files.txt
+local_candidate_files.txt
+
+# Phase 13 generated validation masks - too many for GitHub
+Phase13_Detection_Outputs_Public_Demo/Phase13_Detection_Outputs_Public_Demo/phase13_val_masks/
+
+# Duplicate Phase 11 copy
+Phase-11/Phase-11/
+
+# Old backup demo copy
+CrackSAFE_Web_Demo/backup_phase13/
+
+# Large screen recording
+Report/*.mp4
+
+# Phase 14 packaged copy - duplicates files already stored in their real phases
+Phase-14/Phase14B_Reproducibility_Packaging/phase14b_repro_package/
+
+# Temporary inventory files
+local_candidate_files*.txt
+
+# Large Phase 4 visualization galleries - keep locally only
+phase-4-deeplabv3/deeplabv3plus_efficientnetb3_topk_worst_crack_only_gallery.png
+phase-4-deeplabv3/deeplabv3plus_efficientnetb3_bbox_obb_overlays.png
+phase-4B-unetpp-efficientnetb3-proto1-44/unetplusplus_efficientnetb3_topk_worst_crack_only_gallery.png
+phase-4B-unetpp-efficientnetb3-proto1-44/unetplusplus_efficientnetb3_bbox_obb_overlays.png
+
+# Old thesis/report document - keep locally
+Report/CSE400C_wall crack_v6.docx
+
+# New MSc/Q1 upgrade planning - not part of legacy 14-phase archive
+1New folder/

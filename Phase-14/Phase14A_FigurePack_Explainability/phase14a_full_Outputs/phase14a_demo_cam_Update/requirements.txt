@@ -1,0 +1,10 @@
+torch
+torchvision
+opencv-python-headless
+numpy
+pandas
+segmentation-models-pytorch==0.3.3
+timm==0.9.7
+grad-cam
+scikit-image
+gradio==4.44.1

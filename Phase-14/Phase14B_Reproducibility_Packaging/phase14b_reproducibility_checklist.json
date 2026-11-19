@@ -1,0 +1,62 @@
+[
+  {
+    "item": "Frozen train/val split files present",
+    "status": "YES",
+    "evidence": "train_split.csv, val_split.csv"
+  },
+  {
+    "item": "Split hashes recorded",
+    "status": "YES",
+    "evidence": "phase14b_split_summary.json"
+  },
+  {
+    "item": "Final checkpoint present",
+    "status": "YES",
+    "evidence": "phase11_full_cracksafe_mrc_unetpp_effb3_448_best.pt"
+  },
+  {
+    "item": "Ablation finalist selection recorded",
+    "status": "YES",
+    "evidence": "phase11b_finalist_selection.json"
+  },
+  {
+    "item": "Calibration outputs present",
+    "status": "YES",
+    "evidence": "phase12_temperature_fit.json, phase12_final_operating_point.json"
+  },
+  {
+    "item": "Detection-output package present",
+    "status": "YES",
+    "evidence": "phase13_detection_report.json, phase13_val_detections_from_masks.jsonl"
+  },
+  {
+    "item": "Figure/explainability package present",
+    "status": "YES",
+    "evidence": "phase14a_figure_manifest.csv"
+  },
+  {
+    "item": "Artifact manifest generated",
+    "status": "YES",
+    "evidence": "phase14b_artifact_manifest.csv"
+  },
+  {
+    "item": "Environment snapshot generated",
+    "status": "YES",
+    "evidence": "phase14b_environment_snapshot.json"
+  },
+  {
+    "item": "One-click evaluation script generated",
+    "status": "YES",
+    "evidence": "scripts/one_click_eval.py"
+  },
+  {
+    "item": "Demo package with explainability available",
+    "status": "YES",
+    "evidence": "/kaggle/input/datasets/arman00p/phase14a-full-outputs/phase14a_full_Outputs/phase14a_demo_cam_Update"
+  },
+  {
+    "item": "Protocol document attached",
+    "status": "YES",
+    "evidence": "/kaggle/input/datasets/arman00p/phase6-protocol-md/phase6_protocol.md"
+  }
+]

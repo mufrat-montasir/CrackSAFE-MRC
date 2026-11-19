@@ -1,0 +1,14 @@
+{
+  "selected_ablation": "Boundary + clDice + Lovasz",
+  "checkpoint_path": "/kaggle/input/datasets/arman00p/phase11-cracksafe-mrc-training-ablation/Phase-11/phase11-cracksafe-mrc-training_ablationAll_ThreeTrue/phase11_full_cracksafe_mrc_unetpp_effb3_448_best.pt",
+  "encoder_name": "efficientnet-b3",
+  "temperature": 1.5564953088760376,
+  "mask_threshold": 0.55,
+  "apply_packaging_close": true,
+  "packaging_close_kernel": 3,
+  "packaging_min_component_area": 20,
+  "num_val_images": 1695,
+  "num_predicted_positive_images": 1482,
+  "mean_components_per_positive_image": 2.4399460188933872,
+  "mean_crack_area_ratio": 0.03620271100005268
+}

@@ -1,0 +1,2 @@
+MODEL_NAME,RUN_NAME,IMG_SIZE,EVAL_THR,MIN_COMPONENT_AREA,n_val,n_gt_crack,n_gt_nocrack,mean_iou_all,mean_iou_crack_only,median_iou_crack_only,mean_dice_crack_only,no_crack_false_positive_rate,no_crack_false_positive_count,mean_iou_emptyaware_all
+unetplusplus_efficientnetb3,seg_unetpp_proto1_448,448,0.5,30,1695,1477,218,0.631117629,0.580734178,0.577793002,0.721584947,0.018348624,4,0.63229757

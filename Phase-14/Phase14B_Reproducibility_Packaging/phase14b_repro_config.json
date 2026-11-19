@@ -1,0 +1,35 @@
+{
+  "project_name": "CrackSAFE-MRC",
+  "selected_ablation": "Boundary + clDice + Lovasz",
+  "final_checkpoint_source_path": "/kaggle/input/datasets/arman00p/phase11-cracksafe-mrc-training-ablation/Phase-11/phase11-cracksafe-mrc-training_ablationAll_ThreeTrue/phase11_full_cracksafe_mrc_unetpp_effb3_448_best.pt",
+  "encoder_name": "efficientnet-b3",
+  "temperature": 1.5564953088760376,
+  "recommended_mask_threshold": 0.55,
+  "recommended_confidence_gate": null,
+  "image_size": 448,
+  "in_channels": 3,
+  "num_classes": 1,
+  "activation": null,
+  "packaging_postprocess": {
+    "apply_packaging_close": true,
+    "packaging_close_kernel": 3,
+    "packaging_min_component_area": 20
+  },
+  "frozen_splits": {
+    "train_split_file": "train_split.csv",
+    "val_split_file": "val_split.csv",
+    "train_sha256": "9c02ef25f7cd668418a76fd556d0a8886258eaa7f6418f1859d6682fb8e2065f",
+    "val_sha256": "e77305c80edf1a524274874537ef034d081a5047da0f23354cd94a85f73e8ccd"
+  },
+  "final_outputs": {
+    "phase12_root": "/kaggle/input/datasets/arman00p/phase12-calibration-reliability-finalistt/Phase12_Calibration_Reliability_Finalist",
+    "phase13_root": "/kaggle/input/datasets/arman00p/phase13-detection-outputs-public-demos/Phase13_Detection_Outputs_Public_Demo",
+    "phase14a_root": "/kaggle/input/datasets/arman00p/phase14a-full-outputs/phase14a_full_Outputs"
+  },
+  "notes": [
+    "Use encoder-consistent preprocessing for EfficientNet-B3.",
+    "Use temperature scaling value before thresholding.",
+    "Use recommended mask threshold for final segmentation outputs.",
+    "Phase-14B package prepared for report writing, defense, and reproducibility."
+  ]
+}

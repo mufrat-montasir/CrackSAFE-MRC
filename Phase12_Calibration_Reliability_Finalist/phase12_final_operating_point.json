@@ -1,0 +1,14 @@
+{
+  "selected_ablation": "Boundary + clDice + Lovasz",
+  "checkpoint_path": "/kaggle/input/datasets/arman00p/phase11-cracksafe-mrc-training-ablation/Phase-11/phase11-cracksafe-mrc-training_ablationAll_ThreeTrue/phase11_full_cracksafe_mrc_unetpp_effb3_448_best.pt",
+  "encoder_name": "efficientnet-b3",
+  "temperature": 1.5564953088760376,
+  "recommended_mask_threshold": 0.55,
+  "recommended_mask_threshold_rule": "lowest no-crack FP rate among thresholds with crack-IoU >= 98% of best crack-only IoU on held-out eval after temperature scaling",
+  "heldout_eval_mean_iou_crack_only": 0.5818443871271629,
+  "heldout_eval_mean_dice_crack_only": 0.7222884254041666,
+  "heldout_eval_no_crack_fp_rate": 0.04597701149425287,
+  "reference_phase8_unetpp_baseline_threshold": 0.5,
+  "recommended_confidence_gate": null,
+  "note": "Use phase12_fp_risk_vs_confidence.csv for any later display/review gate in the demo."
+}

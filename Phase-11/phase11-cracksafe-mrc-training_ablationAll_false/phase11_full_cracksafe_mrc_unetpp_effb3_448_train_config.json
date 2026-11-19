@@ -1,0 +1,29 @@
+{
+  "run_name": "phase11_full_cracksafe_mrc_unetpp_effb3_448",
+  "seed": 7,
+  "img_size": 448,
+  "batch_size": 4,
+  "epochs_requested": 12,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "val_threshold": 0.5,
+  "warm_start_from_model3": true,
+  "model3_ckpt": "/kaggle/input/datasets/abarman79/model-3-checkpoints-datasetunet-eff-net-b3/unetplusplus_efficientnetb3_best.pt",
+  "chosen_encoder": "efficientnet-b3",
+  "use_boundary": false,
+  "use_cldice": false,
+  "use_lovasz": false,
+  "use_fda": false,
+  "use_mrc": false,
+  "weights": {
+    "bce": 1.0,
+    "dice": 1.0,
+    "boundary": 0.1,
+    "cldice": 0.2,
+    "lovasz": 0.2,
+    "mrc": 0.1
+  },
+  "fda_prob": 0.5,
+  "fda_beta": 0.01,
+  "cldice_iters": 10
+}

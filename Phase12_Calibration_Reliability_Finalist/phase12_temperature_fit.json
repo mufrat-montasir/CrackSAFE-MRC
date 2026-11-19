@@ -1,0 +1,10 @@
+{
+  "selected_ablation": "Boundary + clDice + Lovasz",
+  "checkpoint_path": "/kaggle/input/datasets/arman00p/phase11-cracksafe-mrc-training-ablation/Phase-11/phase11-cracksafe-mrc-training_ablationAll_ThreeTrue/phase11_full_cracksafe_mrc_unetpp_effb3_448_best.pt",
+  "encoder_name": "efficientnet-b3",
+  "temperature": 1.5564953088760376,
+  "calibration_pixels": 694272,
+  "calibration_positive_fraction": 0.03443751111626625,
+  "calibration_nll_before": 0.04350500926375389,
+  "calibration_nll_after": 0.03954295441508293
+}

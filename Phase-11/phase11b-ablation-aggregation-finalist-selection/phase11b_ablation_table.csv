@@ -1,0 +1,6 @@
+ablation_label,mean_iou_all,mean_iou_crack_only,mean_dice_crack_only,no_crack_fp_rate,best_epoch
+Boundary,0.622459863,0.582308373,0.722701444,0.105504587,10
+Boundary + clDice + Lovasz,0.629537695,0.581629244,0.722450855,0.04587156,12
+Baseline,0.62470928,0.581504556,0.721806572,0.082568807,12
+Boundary + clDice,0.624130038,0.578808676,0.720285769,0.068807339,7
+Boundary + clDice + Lovasz + FDA + MRC,0.623703378,0.57561085,0.717199313,0.050458716,12

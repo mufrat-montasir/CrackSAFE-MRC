@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-04-08T08:04:19.773520Z",
+  "train_split_file": "/kaggle/input/datasets/arman00p/phase-3-csv-files/train_split.csv",
+  "val_split_file": "/kaggle/input/datasets/arman00p/phase-3-csv-files/val_split.csv",
+  "train_sha256": "9c02ef25f7cd668418a76fd556d0a8886258eaa7f6418f1859d6682fb8e2065f",
+  "val_sha256": "e77305c80edf1a524274874537ef034d081a5047da0f23354cd94a85f73e8ccd",
+  "train_rows": 9603,
+  "val_rows": 1695,
+  "train_columns": [
+    "stem",
+    "image_path",
+    "mask_path",
+    "source",
+    "empty_mask",
+    "has_crack"
+  ],
+  "val_columns": [
+    "stem",
+    "image_path",
+    "mask_path",
+    "source",
+    "empty_mask",
+    "has_crack"
+  ],
+  "train_has_crack_col": "has_crack",
+  "val_has_crack_col": "has_crack",
+  "train_source_col": "source",
+  "val_source_col": "source",
+  "train_has_crack_counts": {
+    "true": 8367,
+    "false": 1236
+  },
+  "val_has_crack_counts": {
+    "true": 1477,
+    "false": 218
+  }
+}

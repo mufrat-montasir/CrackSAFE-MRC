@@ -1,0 +1,12 @@
+{
+  "threshold": 0.55,
+  "image_precision": 0.9966261808367072,
+  "image_recall": 1.0,
+  "image_f1": 0.9983102399459277,
+  "image_mcc": 0.9867967278997551,
+  "num_images": 1695,
+  "tp": 1477,
+  "fp": 5,
+  "tn": 213,
+  "fn": 0
+}

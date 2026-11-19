@@ -1,0 +1,13 @@
+{
+  "pixel_sampling_per_image_eval": 2048,
+  "total_sampled_pixels_eval": 2777088,
+  "uncalibrated": {
+    "ece": 0.008118800153972108,
+    "brier": 0.012918172404170036
+  },
+  "temperature_scaled": {
+    "ece": 0.005716662527499062,
+    "brier": 0.01248013973236084
+  },
+  "temperature": 1.5564953088760376
+}

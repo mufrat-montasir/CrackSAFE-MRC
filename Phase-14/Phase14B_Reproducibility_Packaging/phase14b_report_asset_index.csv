@@ -1,0 +1,11 @@
+asset_file,suggested_chapter,suggested_section,suggested_use,caption_stub
+phase11b_finalist_selection.json,Chapter 4,Ablation Results and Finalist Selection,table/text result,Finalist selection under the risk-aware rule.
+phase12_reliability_diagram_val_eval.png,Chapter 4,Calibration and Reliability,main-paper figure,Reliability diagram before and after temperature scaling on held-out evaluation data.
+phase12_fp_risk_vs_threshold.png,Chapter 4,Threshold Policy and Risk Control,main-paper figure,Risk-aware threshold tradeoff after temperature scaling.
+phase13_detection_montage.png,Chapter 4,Operational Detection Outputs,supplementary figure,Detection-output montage with mask overlays and oriented boxes.
+phase14a_source_metric_heatmap.png,Chapter 4,Source-wise Generalization Analysis,main-paper figure,Source-wise metric heatmap for the finalized CrackSAFE-MRC model.
+phase14a_threshold_metric_heatmap.png,Chapter 4,Threshold Sensitivity Analysis,supplementary figure,"Threshold-metric heatmap across crack IoU, Dice, no-crack FP rate, and image-level metrics."
+phase14a_image_level_confusion_matrix.png,Chapter 4,Image-level Decision Analysis,supplementary figure,Image-level normalized confusion matrix for crack/no-crack decisions.
+phase14a_pixel_confusion_matrix_normalized.png,Chapter 4,Pixel-level Segmentation Analysis,supplementary figure,Pixel-level normalized confusion matrix at the final operating point.
+phase14a_cam_comparison_panel.png,Chapter 4,Explainability and Failure Analysis,main-paper figure,Comparison of explainability maps for representative validation examples.
+phase14a_qualitative_panel_main_paper.png,Chapter 4,Qualitative Results,main-paper figure,Representative qualitative segmentation examples with overlays.
