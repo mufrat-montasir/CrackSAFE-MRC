@@ -646,7 +646,7 @@ wallCrackWith2datasets/
 
 # **CrackSAFE-MRC Demo**
 
-The research is also represented through a Hugging Face Space.
+Explore the live CrackSAFE-MRC AI research demo, powered by Streamlit and a trained deep-learning model.
 
 <div align="center">
 
