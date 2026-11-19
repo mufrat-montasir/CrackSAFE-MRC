@@ -17,7 +17,7 @@ with controlled model comparison, diagnostic evaluation, and threshold-aware ope
 
 <br/>
 
-<a href="https://cracksafe-mrc.streamlit.app/">
+<a href="https://cracksafe-mrc.streamlit.app/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/CRACKSAFE--MRC-OPEN%20DEMO-F59E0B?style=for-the-badge&logo=huggingface&logoColor=111827&labelColor=111827"/>
 </a>
 
