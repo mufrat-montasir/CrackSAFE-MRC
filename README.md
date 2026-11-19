@@ -17,7 +17,7 @@ with controlled model comparison, diagnostic evaluation, and threshold-aware ope
 
 <br/>
 
-<a href="https://huggingface.co/spaces/abArman6979/Wallcrack">
+<a href="https://cracksafe-mrc.streamlit.app/">
 <img src="https://img.shields.io/badge/CRACKSAFE--MRC-OPEN%20DEMO-F59E0B?style=for-the-badge&logo=huggingface&logoColor=111827&labelColor=111827"/>
 </a>
 
@@ -652,7 +652,7 @@ The research is also represented through a Hugging Face Space.
 
 <br/>
 
-<a href="https://huggingface.co/spaces/abArman6979/Wallcrack">
+<a href="https://cracksafe-mrc.streamlit.app/">
 <img src="https://img.shields.io/badge/LAUNCH-CRACKSAFE--MRC-F59E0B?style=for-the-badge&logo=huggingface&logoColor=111827&labelColor=FFD21E"/>
 </a>
 
@@ -796,7 +796,7 @@ That is why this repository includes not only model checkpoints, but also **diag
 
 <br/>
 
-<a href="https://huggingface.co/spaces/abArman6979/Wallcrack">
+<a href="https://cracksafe-mrc.streamlit.app/">
 <img src="https://img.shields.io/badge/TRY%20THE%20DEMO-HUGGING%20FACE-F59E0B?style=for-the-badge&logo=huggingface&logoColor=111827&labelColor=FFD21E"/>
 </a>
 
